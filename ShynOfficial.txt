@@ -1,19 +1,3 @@
---[[
- /$$$$$$$                      /$$                 /$$$$$$$$                               
-| $$__  $$                    |__/                |__  $$__/                               
-| $$  \ $$  /$$$$$$   /$$$$$$$ /$$  /$$$$$$          | $$  /$$$$$$   /$$$$$$  /$$$$$$/$$$$ 
-| $$$$$$$/ /$$__  $$ /$$_____/| $$ /$$__  $$         | $$ /$$__  $$ |____  $$| $$_  $$_  $$
-| $$__  $$| $$  \ $$|  $$$$$$ | $$| $$$$$$$$         | $$| $$$$$$$$  /$$$$$$$| $$ \ $$ \ $$
-| $$  \ $$| $$  | $$ \____  $$| $$| $$_____/         | $$| $$_____/ /$$__  $$| $$ | $$ | $$
-| $$  | $$|  $$$$$$/ /$$$$$$$/| $$|  $$$$$$$         | $$|  $$$$$$$|  $$$$$$$| $$ | $$ | $$
-|__/  |__/ \______/ |_______/ |__/ \_______/         |__/ \_______/ \_______/|__/ |__/ |__/     
-
-[+] Rosie Team Cảm Ơn Bạn Đã Tin Tưởng Và Sử Dụng Dịch Vụ Của Chúng Tôi, Nếu Thấy Hữu Ít Hãy Chia Sẻ Cho Bạn Bè Của Bạn !!
-[+] Không Được Share Hay Crack Mã Nguồn Này Cho Ai! Nếu Không Bạn Sẽ Bị Ban IP Khỏi Website Vĩnh Viễn!
-[+] Chúng Tôi Không Nhận Hỗ Trợ Những Mã Nguồn Miễn Phí, Xin Đừng Bảo Vì Sao. Tạo Ticket Hỗ Trợ Của Website Tại: https://rosieteam.net/dash/ticket
-[+] Nếu Bạn Edit Source Và Up Web Share Nhớ Obfuscate Script. Nếu Bạn Có Tiền Thì Sử Dụng: Lura.Ph, Luarmor.Net | Nếu Bạn Không Có Tiền Thì Dùng: luaobfuscate.com, MoonSec, 77Fuscate,... Nhé!
-]]
-
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -68,7 +52,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.0638475493, 0, 0.186696902, 0)
 TextLabel.Size = UDim2.new(0, 127, 0, 34)
 TextLabel.Font = Enum.Font.LuckiestGuy
-TextLabel.Text = "Check (clipboard)"
+TextLabel.Text = "World Hub Kaitun"
 TextLabel.TextColor3 = Color3.fromRGB(236, 48, 23)
 TextLabel.TextSize = 25.000
 
@@ -96,7 +80,7 @@ TextButton.BorderSizePixel = 0
 TextButton.Position = UDim2.new(0.0316807218, 0, 0.775604248, 0)
 TextButton.Size = UDim2.new(0, 74, 0, 43)
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Skip"
+TextButton.Text = "Start"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 30.000
 
@@ -115,7 +99,7 @@ TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextSize = 30.000
 TextButton_2.MouseButton1Down:connect(
     function()
-delfolder("VN WORLD HUB")
+delfolder("World Hub Kaitun")
 wait(0.1)
 TextLabel_2.Text = "Time Elapsed: 00:00:00"
 TextLabel_3.Text = "Client Time Elapsed: 00:00:00"
@@ -219,7 +203,7 @@ spawn(function()
     end
 end)  
 
-local foldername = "VN WORLD HUB"
+local foldername = "WORLD HUB KAITUN"
 local filename = foldername.."/Config.json"
 function saveSettings()
     local HttpService = game:GetService("HttpService")
