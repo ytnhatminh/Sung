@@ -90,6 +90,17 @@ game:GetService("Players").LocalPlayer.Character.Events.Grab:FireServer(unpack(a
 	end
 end
 
+local Toggle = Section:Toggle({
+	["Title"]= "Auto Grab Fast",
+	["Content"] = "[ ✅ ]",
+	["Default"] = true,
+	["Callback"] = function(Value)
+	_G.autoGrab = Value
+	autoGrab()
+		print(Value)
+	end
+})
+
 local foldername = "WORLD HUB KAITUN"
 local filename = foldername.."/Config.json"
 function saveSettings()
